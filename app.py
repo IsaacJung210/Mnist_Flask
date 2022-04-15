@@ -18,7 +18,7 @@ def mnist():
         f = request.files['mnistfile']
         path = os.path.dirname(__file__)+'/upload/'+f.filename
         f.save(path)
-        return "성공!!"
+        return "성공!!╰(*°▽°*)╯"
 
 
 if __name__ == '__main__':
